@@ -11,4 +11,5 @@ steps:
       - npm install -g enzyme-adapter-react-16
       - git clone https://github.com/unsortedArray/Hackathon2308FECASES.git
       - cd Hackathon2308FECASES
-      - npm run test --exit
+      - enzyme EnzymeCases.js 
+      - jest Yest.js
