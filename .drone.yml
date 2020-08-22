@@ -5,12 +5,12 @@ steps:
   - name: FrontEnd Eval
     image: node
     commands:
-      - npm install
       - npm install -g enzyme
       - npm install -g jest
       - npm install -g enzyme-adapter-react-16
       - git clone https://github.com/unsortedArray/Hackathon2308FECASES.git
       - cd Hackathon2308FECASES
+      - ls -a
       - cp -a ./ ../__tests__
       - npm install -g enzyme
       - npm install -g jest
