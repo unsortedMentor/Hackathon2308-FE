@@ -14,6 +14,6 @@ steps:
       - npm install -g enzyme
       - npm install -g jest
       - cd ..
-      - ls -a ../__tests__
+      - ls -a __tests__
       - npm install
       - npm run test --exit 
