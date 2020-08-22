@@ -10,10 +10,9 @@ steps:
       - npm install -g enzyme-adapter-react-16
       - git clone https://github.com/unsortedArray/Hackathon2308FECASES.git
       - cd Hackathon2308FECASES
-      - cp -a ./ ../__tests__
+      - cp -a ./ ../src/__tests__
       - npm install -g enzyme
       - npm install -g jest
       - cd ..
-      - ls -a __tests__
       - npm install
       - npm run test --exit 
