@@ -14,5 +14,5 @@ steps:
       - cp -a ./ ../__tests__
       - npm install -g enzyme
       - npm install -g jest
-      - enzyme EnzymeCases.js 
-      - jest Yest.js
+      - cd ..
+      - npm test --exit
