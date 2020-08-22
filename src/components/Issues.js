@@ -1,5 +1,5 @@
 import React from 'react';
-import IssueList from "./IssueList";
+import IssueList from "./IssuesList";
 import Filters from "./Filters";
 import AddIssueBtn from "./AddIssueBtn";
 import Pagination from "./Pagination";
